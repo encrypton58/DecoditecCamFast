@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rt_layout_nombre"
+        android:layout_width="349dp"
+        android:layout_height="81dp"
+        android:layout_below="@+id/r_t_show_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="28dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginEnd="34dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/r_t_hint_nombre" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rt_layout_numero"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="349dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/r_t_area"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="34dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/r_t_hint_numero" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/r_t_area"
+        android:layout_width="280dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/rt_layout_nombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:entries="@array/areas"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="63dp" />
+
+    <Button
+        android:id="@+id/rt_button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/r_t_button_registrar" />
+
+    <ImageButton
+        android:id="@+id/r_t_pick_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rt_layout_numero"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:src="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/r_t_show_image"
+        android:layout_width="184dp"
+        android:layout_height="171dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="103dp"
+        android:src="@drawable/menu_drawer_trabajadores" />
+
+    <TextView
+        android:id="@+id/rt_label_cameraPick"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rt_layout_numero"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@+id/r_t_pick_photo"
+        android:text="TextView" />
+</RelativeLayout>

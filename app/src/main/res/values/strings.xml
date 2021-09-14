@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Decoditec CamFast</string>
+
+    <!--Login Strings-->
+    <string name="buttonLogin">Iniciar Sesión</string>
+    <string name="textRegister">¿No Tienes Una Cuenta?</string>
+    <string name="textRegisterButton">Crea Una</string>
+    <string name="hintEmail">Correo</string>
+    <string name="hintPass">Contraseña</string>
+
+    <!--Login Dialog Strings -->
+    <string name="buttonAccept">Aceptar</string>
+
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_stop_service">Detener Servicio</string>
+
+    <string name="menu_home">Escanear Codigos Y Registrar</string>
+    <string name="menu_r_t">Registrar Trabajadores</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="r_t_button_registrar">Registrar Trabajador</string>
+    <string name="r_t_hint_nombre">Nombre</string>
+    <string name="r_t_hint_numero">Numero</string>
+
+    <string-array name="areas">
+        <item>Area Del Trabajador</item>
+        <item>Postes</item>
+        <item>Transporte</item>
+        <item>Maquinado</item>
+        <item>Pintura</item>
+        <item>Arco</item>
+        <item>Dados</item>
+        <item>Costura</item>
+        <item>Vigilancia</item>
+        <item>Almacen</item>
+        <item>Mantenimiento</item>
+        <item>Ingenieria</item>
+        <item>Oficinas</item>
+        <item>Montaje</item>
+        <item>Intendencia</item>
+        <item>Taller</item>
+        <item>RHI</item>
+        <item>Carpinteria</item>
+        <item>Jardineria</item>
+        <item>Maquilado</item>
+        <item>Temporal</item>
+    </string-array>
+
+    <string name="channel_name">Escaneo Requerido</string>
+    <string name="description_channel">Lanza Notificacion
+        Para Abrir la camara y registrar un codigo de barras</string>
+
+</resources>
